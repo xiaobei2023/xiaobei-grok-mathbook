@@ -1,26 +1,29 @@
 # 小北数学讲义工坊 · xiaobei-grok-mathbook
 
-主程序基线：0.12.1 源码  
-本仓库集成版：**0.12.2**
+主程序 0.12.2 · 原生模块集成
 
-## 模块状态
+## 下载
 
-| 模块 | 版本 | 形态 |
-| --- | --- | --- |
-| geometry 几何绘图 | 1.0.34-native.9 | TypeScript + React 原生重写 |
-| insert-graphic 插入图形 | 3.15-native.2 | 成熟 HTML 引擎抽入原生模块包，界面 1:1 |
-| cube-views 三视图 | 1.2.7-native.2 | 同上 |
-| function-plot 函数图像 | 0.1.0-native.1 | 新建题干配图 |
+GitHub 单次提交上限不允许上传 210MB 便携包与 23MB 完整源码包。
+请从对话里的压缩包下载：
 
-插图和三视图没有把算法再手写一遍，否则无法保证 1:1。
+- `xiaobei-grok-mathbook-0.12.2-source.zip` 源码
+- `XBMathWorkshop-0.12.2-win-x64-portable.zip` Windows 便携
 
-完整源码与 Windows 便携包不入仓（便携约 210MB），见本地打包交付。
+解压便携包后运行 `XBMathWorkshop.exe`。
 
-## 接入规则
+## 文档
 
-1. 目录名 = manifest.id = 主程序 moduleId
-2. iframe 打开 modules/<id>/index.html
-3. 协议 xb-module API 1
-4. COMMIT 含 moduleId / svg / widthMm / heightMm
+- docs/WORKLOG-0.12.2.md 工作内容
+- docs/DIFF_MATRIX.md 1:1 差异
+- docs/XB_NATIVE_MODULE_SDK.md 模块规则
+- docs/NATIVE_ONLY_POLICY.md 后续模块必须原生
 
-见 docs/XB_NATIVE_MODULE_SDK.md 与 docs/MODULE_EXAMPLE.md。
+## 模块版本
+
+| id | version |
+| --- | --- |
+| geometry | 1.0.34-native.9 |
+| insert-graphic | 3.15-native.5 |
+| cube-views | 1.2.7-native.4 |
+| function-plot | 0.1.0-native.2 |
