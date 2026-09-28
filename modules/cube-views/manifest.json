@@ -1,0 +1,9 @@
+{
+  "id": "cube-views",
+  "name": "小正方体三视图",
+  "version": "1.2.7-native.2",
+  "apiVersion": 1,
+  "entry": "index.html",
+  "runtime": "native",
+  "baseline": "1.2.7-host.1"
+}

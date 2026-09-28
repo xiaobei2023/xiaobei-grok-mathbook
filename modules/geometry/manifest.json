@@ -1,0 +1,9 @@
+{
+  "id": "geometry",
+  "name": "几何绘图",
+  "version": "1.0.34-native.9",
+  "apiVersion": 1,
+  "entry": "index.html",
+  "runtime": "native",
+  "baseline": "1.0.34-host.3"
+}
